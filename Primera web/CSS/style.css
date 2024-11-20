@@ -1,0 +1,68 @@
+h1{ 
+    border: 3px solid rgb(0, 0, 0); <!--Sirve para crear bordes en las pabras-->
+    color: blueviolet;   
+}
+h2{
+    color: red;
+}
+h3{
+    color: #f7a903;
+}
+p{
+    font-size: larger;
+    margin: 0cqi;
+}
+ul li{
+     color: #f7a903;
+}
+ol li{
+    list-style: square;
+    color: black;
+
+}
+div{
+    background-color: rgba(88, 30, 197, 0.651);
+}
+body{ 
+    background: rgb(112, 112, 112, 0.644) url("https://png.pngtree.com/element_our/20200609/ourlarge/pngtree-children-s-software-programming-image_2230759.jpg") no-repeat center
+    fixed;
+
+}
+
+div{
+color: black;
+}  
+th{
+    color: rgb(81, 255, 0);
+    
+    
+}
+#campo2{
+    color:  yellow;
+    font-family: 'Times New Roman', Times, serif;
+}
+#campo3{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#campo4{
+    color:  green;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#campo5{
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#campo6{
+    color: rebeccapurple;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#campo7{
+    color:  violet;
+    font-family: 'Times New Roman', Times, serif;
+}
+

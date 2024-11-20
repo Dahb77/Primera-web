@@ -1,0 +1,175 @@
+<!DOCTYPE <i class="fa fa-html5" aria-hidden="true"></i>>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--Esto sirve para centos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Esto me ayuda a que la pagina sea responsiva (se adapta a diferentes dispositivos)-->
+    <title>Mi primera pagina</title> <!-- nomre de la pagina-->
+    
+    <link rel="stylesheet" href="../Primera web/CSS/style.css">
+
+</head>
+
+<body>
+    <header>
+       <center> 
+        <div> 
+            <h1>Creando paginas</style></h1> 
+        </div> <!--Sirve para poner un cuadro de color-->
+       </center>
+        <nav>
+                <a href="index.html">Inicio</a> 
+                <center> 
+                <a href="Pages/contacto.html">En proceso</a>
+        </nav>
+                </center>
+    </header> 
+    <form action="" method="get">
+        <label for="name">Nombre</label> <br>
+        <input type="text" required> <br>
+        <label for="Direccion">Direccion</label> <br>
+        <input type="text" required> <br>
+        <label for=Telefono">Telefono</label> <br>
+        <input type="number" required>  <br>
+        <label for="pais">pais</label>
+        <select name="Pais" id="Pais">
+            <option value="Colombia">Colombia</option>
+            <option value="Panama">Panama</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Ecuador">Ecuador</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Venezuela">Venezuela</option>
+        </select>
+        <button type="submit">Enviar</button> 
+        <br>
+        <br>
+        <center>
+        <p>La programación es el proceso de crear un conjunto de instrucciones que le dicen a una computadora como realizar algún tipo de tarea. Pero no solo la acción de escribir un código para que la computadora o el software lo ejecute. Incluye, además, todas las tareas necesarias para que el código funcione correctamente y cumpla el objetivo para el cual se escribió.
+        </p> <br>
+        <p>En la actualidad, la noción de programación se encuentra muy asociada a la creación de aplicaciones de informática y videojuegos. En este sentido, es el proceso por el cual una persona desarrolla un programa, valiéndose de una herramienta que le permita escribir el código (el cual puede estar en uno o varios lenguajes, como C++, Java y Python, entre muchos otros) y de otra que sea capaz de “traducirlo” a lo que se conoce como lenguaje de máquina, que puede "comprender" el microprocesador.</p> <br>
+        <h2>Funcionamiento de un programa</h2> <br>     
+        <p>El lenguaje entendido por una computadora se conoce como código máquina. Consiste en secuencias de instrucciones básicas que el procesador reconoce, codificadas como cadenas de números 1 y 0 (sistema binario). En los primeros tiempos de la computación se programaba directamente en código máquina. Escribir programas así resultaba demasiado complicado, también era difícil entenderlos y mantenerlos una vez escritos. Con el tiempo, se fueron desarrollando herramientas para facilitar el trabajo.</p> <br>
+        <p>Los primeros científicos que trabajaron en el área decidieron reemplazar las secuencias de unos y ceros por mnemónicos, que son abreviaturas en inglés de la función que cumple una instrucción de procesador. Por ejemplo, para sumar se podría usar la letra A de la palabra inglesa add (añadir). Crearon así una familia de lenguajes de mayor nivel, que se conocen como lenguaje ensamblador o simplemente ensamblador (en inglés, assembly). Con el tiempo los ensambladores incorporaron facilidades adicionales, pero siempre manteniendo una correspondencia directa con las instrucciones de procesador. A nivel conceptual, entonces, programar en ensamblador es muy similar a hacerlo en lenguaje máquina, solo que de una forma más amigable.
+        </p> <br>
+        <p>A medida que la complejidad de las tareas que realizaban las computadoras aumentaba, el lenguaje ensamblador fue mostrando limitaciones. Para hacer un programa había que conocer en detalle el funcionamiento de la computadora donde se iba a ejecutar, qué instrucciones proveía y cómo emplearlas. A veces las instrucciones eran demasiado básicas, por ejemplo podía haber una para sumar dos números pero no para multiplicar, y entonces era necesario programar un algoritmo que realizara la multiplicación con base en instrucciones más básicas. Otras veces, la forma de emplear las instrucciones era engorrosa. Además, si se usaba otro modelo de computadora, en muchos casos había que reescribir el programa con otras instrucciones. El siguiente paso fue crear los lenguajes de alto nivel.
+        </p> <br>
+        <p>Una vez que se termina de escribir un programa, es necesario de alguna forma traducirlo a lenguaje máquina, que es lo único que entiende el procesador. Esta tarea es automática, por medio de un programa adicional que toma el código escrito y lo procesa. Hay distintos enfoques para este procesamiento. El enfoque clásico se llama compilación: el programa toma el código en un lenguaje y genera código en el otro; al programa traductor se lo llama compilador. En general se habla de compilación y compiladores cuando el lenguaje de origen es de alto nivel; si la traducción es desde lenguaje ensamblador, se llama ensamblado y el programa se llama ensamblador (hay que distinguir el lenguaje ensamblador del programa ensamblador; en inglés es más claro, son assembly language y assembler respectivamente).3​Generalmente existe una fase posterior a la compilación denominada enlace o enlazado (linking en inglés). Los programas pueden escribirse en partes separadas y además pueden usar recursos provistos por bibliotecas. El enlazado, realizado por un programa llamado enlazador, combina todos los componentes y así genera un programa ejecutable completo.
+        </p> <br>
+        <p>En algunos lenguajes de programación, puede usarse un enfoque diferente que no requiera compilación y enlace: un programa llamado intérprete va leyendo el código y realizando en el momento las acciones que haría el programa. Se evita generar código separado y la experiencia es que se está ejecutando el código en el lenguaje de alto nivel, a pesar de que el procesador no lo entienda de forma nativa.
+        </p> <br>
+        <h2>Léxico y programación</h2>
+        <p>La programación se rige por reglas y un conjunto más o menos reducido de órdenes, expresiones, instrucciones y comandos que tienden a asemejarse a una lengua natural acotada (en inglés); y que además tienen la particularidad de una reducida ambigüedad.
+        </p> <br>
+        <p>En los lenguajes de programación se distinguen diversos elementos entre los que se incluyen el léxico propio del lenguaje y las reglas semánticas y sintácticas. Dentro del léxico, generalmente se utilizan símbolos y palabras con funciones específicas dentro del lenguaje. Estas palabras suelen tomarse del inglés y no se las puede utilizar de manera diferente: son las denominadas palabras reservadas. Otra particularidad de los lenguajes es el permitir a los programadores el uso de comentarios: frases o párrafos sin funcionalidad en el programa, que los compiladores o intérpretes descartan y solo están destinados a ser leídos por personas; así se pueden dejar explicaciones que ayuden a entender el código a quien lo lea.
+        </p>
+    </center>
+        <br>
+
+        <table border="5" width="0" cellspacing="7" cellspacing="15"align=center
+
+            <thead>
+
+                <tr>
+                    <th>CAMPO 1</th> 
+                    <th id="campo2">CAMPO 2</th> <!--El id es para llamar ese elemto en especial-->
+                    <th id="campo3">CAMPO 3</th>
+                    <th id="campo4">CAMPO 4</th>
+                    <th id="campo5">CAMPO 5</th>
+                    <th id="campo6">CAMPO 6</th>
+                    <th id="campo7">CAMPO 7</th>
+                </tr>
+            </thead>
+            <body>
+                <tr>
+                    <td>????</td>
+                    <td>????</td>
+                    <td>????</td>
+                    <td>????</td>
+                    <td>????</td>                    
+                    <td>????</td>                    
+                    <td>????</td>                    
+                </tr>
+                <tr>
+                    <td>????</td>
+                    <td>????</td>
+                    <td>????</td>
+                    <td>????</td>
+                    <td>????</td>                    
+                    <td>????</td>                    
+                    <td>????</td>                    
+                </tr>
+                <tr>
+                    <td>????</td>
+                    <td>????</td>
+                    <td>????</td>
+                    <td>????</td>
+                    <td>????</td>                    
+                    <td>????</td>                    
+                    <td>????</td>                    
+                </tr>
+                <tr>
+                    <td>????</td>
+                    <td>????</td>
+                    <td>????</td>
+                    <td>????</td>
+                    <td>????</td>                    
+                    <td>????</td>                    
+                    <td>????</td>                    
+                </tr>
+
+                <ol> <!--Listas Ordenadas-->
+                    <h2>Mas cursos</h2>
+                    <a href="https://concepto.de/codigo-fuente/"><li> Codigo fuente </li></a>
+                    <a href="https://concepto.de/software/"><li> software </li></a>
+                    <a href="https://concepto.de/programa-informatico/"><li> Programa informatico </li></a>
+                    <a href="https://concepto.de/algoritmo-en-informatica/"><li> Algoritmo e informatica </li></a>
+                </ol>
+
+                <ul> <!-- Listas Desordenadas-->
+                    <h2>Elementos de la programación</h2>
+                    <li>Palabras reservadas:</li>
+                    <p>Palabras que dentro del lenguaje significan la ejecución de una instrucción determinada, por lo que no pueden ser utilizadas con otro fin.</p>
+
+                    <li>Operadores:</li>
+                    <p>Símbolos que indican la aplicación de operaciones lógicas o matemáticas.</p>
+
+                    <li>Variables:</li>
+                    <p>Datos que pueden variar durante la ejecución del programa.</p>
+
+                    <li>Constantes:</li>
+                    <p>Datos que no varían durante la ejecución del programa.</p>
+
+                    <li>Identificadores:</li>
+                    <p> Nombre que se le da a las diferentes variables para identificarlas.</p>
+                </ol>
+
+                
+
+                 </ul>
+                  <ol><!-- una lista desordenada anidada en una lista ordenada-->
+                   <h3><li">Primer  item</li></h3>
+                      <ul>
+                        <li>Contenido A</li>
+                        <li>Contenido B</li>
+                      </ul> 
+                    <h3><li">Second item</li></h3>
+                      <ul>
+                        <li>Contenido A</li>
+                        <li>Contenido B</li>
+
+                </ul>
+                    
+                  </ol>
+                
+
+            </body>
+
+        </table> <BR></br
+            >
+        <label for="comentarios">comentarios</label> <br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea> <br>
+         <br><button type="submit"> Enviar</button> <button type="reset">Eliminar</button>
+    </form>
+
+    
+</body>
+</html>
