@@ -1,5 +1,5 @@
 h1{ 
-    border: 3px solid rgb(0, 0, 0); <!--Sirve para crear bordes en las pabras-->
+    border: 3px solid rgb(0, 0, 0); /* Sirve para crear bordes en las palabras */
     color: blueviolet;   
 }
 h2{
@@ -9,9 +9,11 @@ h3{
     color: #f7a903;
 }
 p{
-    font-size: larger;
-    margin: 0cqi;
+    font-size: 1.05rem;
+    margin: 0.75rem 0;
 }
+
+
 ul li{
      color: #f7a903;
 }
@@ -23,20 +25,170 @@ ol li{
 div{
     background-color: rgba(88, 30, 197, 0.651);
 }
-body{ 
-    background: rgb(112, 112, 112, 0.644) url("https://png.pngtree.com/element_our/20200609/ourlarge/pngtree-children-s-software-programming-image_2230759.jpg") no-repeat center
-    fixed;
-
+body{
+    min-height: 100vh;
+    margin: 0;
+    color: #f5f7ff;
+    background: rgba(112,112,112,0.64) url("https://png.pngtree.com/element_our/20200609/ourlarge/pngtree-children-s-software-programming-image_2230759.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-div{
-color: black;
-}  
+/* Overlay para mejorar legibilidad sobre la imagen */
+.page-overlay{
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(6, 9, 24, 0.70), rgba(6, 9, 24, 0.35));
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* Contenedor principal */
+.container{
+    position: relative;
+    z-index: 1;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px 16px;
+}
+
+div{color: inherit;}  
+
 th{
     color: rgb(81, 255, 0);
-    
-    
 }
+
+/* Estilos visuales modernos (sin romper tu contenido) */
+.site-header{
+    padding: 18px 0;
+}
+
+.header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.brand{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.subtitle{
+    margin: 0;
+    color: rgba(245,247,255,0.9);
+}
+
+.nav{
+    display: flex;
+    gap: 12px;
+}
+
+.nav-link{
+    color: #f5f7ff;
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 12px;
+    background: rgba(88, 30, 197, 0.35);
+    border: 1px solid rgba(255,255,255,0.15);
+    transition: transform .15s ease, background .15s ease;
+}
+
+.nav-link:hover{
+    transform: translateY(-1px);
+    background: rgba(88, 30, 197, 0.55);
+}
+
+.card{
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 18px;
+    padding: 18px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.hero-card{
+    margin-top: 18px;
+}
+
+.section-title{
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+
+.content{
+    margin-top: 18px;
+    display: grid;
+    gap: 14px;
+}
+
+.content-block{
+    padding: 14px;
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.12);
+    background: rgba(0,0,0,0.12);
+}
+
+.info-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+input, select, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.18);
+    background: rgba(255,255,255,0.08);
+    color: #f5f7ff;
+    outline: none;
+}
+
+textarea{ resize: vertical; min-height: 90px; }
+
+.form-actions{
+    display: flex;
+    gap: 12px;
+    margin: 14px 0 10px;
+    flex-wrap: wrap;
+}
+
+.btn{
+    cursor: pointer;
+    border: 0;
+    padding: 12px 16px;
+    border-radius: 12px;
+    color: #0b0c10;
+    background: linear-gradient(90deg, #f7a903, #6a00ff);
+    font-weight: 700;
+    transition: transform .15s ease, filter .15s ease;
+}
+
+.btn:hover{ transform: translateY(-1px); filter: brightness(1.05); }
+
+.btn-secondary{
+    background: rgba(255,255,255,0.15);
+    color: #f5f7ff;
+    border: 1px solid rgba(255,255,255,0.18);
+}
+
+.footer{
+    text-align: center;
+    padding: 26px 16px;
+    color: rgba(245,247,255,0.9);
+}
+
+/* Mejor para móviles */
+@media (max-width: 700px){
+    .header-inner{ flex-direction: column; align-items: flex-start; }
+    .nav{ flex-wrap: wrap; }
+}
+
 #campo2{
     color:  yellow;
     font-family: 'Times New Roman', Times, serif;
